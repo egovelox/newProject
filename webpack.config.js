@@ -5,7 +5,7 @@ const myPostCssPlugins = [require('postcss-simple-vars'),require('postcss-nested
 module.exports = {
     entry: ['babel-polyfill', './src/js/index.js'],
     output: {
-        filename: 'js/bundled.js',
+        filename: 'public/bundled.js',
         path: path.resolve(__dirname, 'dist'),
     },
     module: {
